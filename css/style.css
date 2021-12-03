@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    background-color: #faf4f2;
+}
+
+.clear-both {
+    clear: both;
+}
+
+/* HEADER */
+#header {
+    background-color: #f8e1db;
+    padding: 10px 50px;
+}
+
+#header > a {
+    margin-left: 40px;
+}
+
+#header ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+#header ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* CAROUSEL */
+#carousel {
+    background: url(../images/BG.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ACTIVITIES */
+#activities {
+    margin: 70px 0px;
+}
+
+#activities .activities__title {
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.activities__list .activities__item {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.activities__list .activities__content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.activities__img {
+    position: relative;
+}
+
+.activities__img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.activities__img i {
+    color: red;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff87;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.activities__content p {
+    color: #8f8f8f;
+}
+
+.activities__content button {
+    background-color: #e8e8e8;
+    color: #8f8f8f;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.activities__view_all {
+    margin: 20px;
+    text-align: center;
+}
+
+.activities__view_all button {
+    color: red;
+    border: 1px solid red;
+    padding: 10px 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* CONTACT */
+/* #contact .contact__left {
+    float: left;
+    width: 50%;
+}
+
+#contact .contact__right {
+    float: left;
+    width: 50%;
+} */
+
+#contact {
+    background-color: #f8e1db;
+    padding: 10px 50px;
+    background-image: url(../images/mask.png);
+    background-position-x: -392px;
+    background-repeat-x: no-repeat;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#contact i {
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #e76f51;
+}
+
+#contact .contact__left, #contact .contact__right{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#contact h1, #contact h3, #contact p {
+    color: #8f8f8f;
+}
+
+#contact .contact__right {
+    padding-top: 50px;
+}
+
+.contact__right .contact__download, .contact__right .contact__social {
+    float: left;
+    width: 45%;
+}
+
+.contact__download img {
+    cursor: pointer;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #f8e1db;
+    padding: 90px 50px;
+    margin-top: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#footer .footer__about {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.footer__about p {
+    line-height: 25px;
+}
+
+#footer .footer__help {
+    float: left;
+    width: 20%;
+}
+
+.footer__help ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer__help ul li {
+    margin-bottom: 15px;
+}
+
+.footer__help ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer .footer__right {
+    text-align: center;
+}
